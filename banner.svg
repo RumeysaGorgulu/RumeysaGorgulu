@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1f3d"/>
+      <stop offset="0.55" stop-color="#1b3a6b"/>
+      <stop offset="1" stop-color="#2a6f8f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <!-- scatter of "measurements" with a fitted line, on the right -->
+  <g opacity="0.9">
+    <line x1="700" y1="215" x2="1150" y2="55" stroke="url(#line)" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="480" stroke-dashoffset="480">
+      <animate attributeName="stroke-dashoffset" values="480;0;0;480" keyTimes="0;0.35;0.85;1" dur="7s" repeatCount="indefinite"/>
+    </line>
+    <g fill="#e0f2fe">
+      <circle cx="720" cy="190" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="205" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="795" cy="168" r="6"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="172" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="875" cy="140" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="915" cy="150" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="955" cy="118" r="6"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1000" cy="112" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="1040" cy="92" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1085" cy="88" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="62" r="5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.0s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- one "biased" point that drifts off the line -->
+    <circle cx="900" cy="95" r="7" fill="#fbbf24">
+      <animate attributeName="cy" values="135;95;135" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="60" y="112" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="50" font-weight="700">Rumeysa Gorgulu</text>
+  <text x="60" y="158" fill="#bae6fd" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24">AI evaluation through a measurement lens</text>
+  <text x="60" y="200" fill="#cbd5e1" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17">Data quality  ·  Label noise and fairness  ·  LLM-as-a-judge  ·  Psychometrics for AI</text>
+</svg>
