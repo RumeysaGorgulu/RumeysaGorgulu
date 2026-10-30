@@ -95,15 +95,6 @@ Survey-weighted regression with plausible values, replicate weights and multiple
 <td width="50%" valign="middle">
 
 ### 🔗 How it all connects
-
-Label noise is **measurement error** in the outcome. A model is a **measuring instrument**. Assessment data is **messy by design**.
-
-My projects ask the same three questions of all of them: *is it valid, is it reliable, and is it fair?*
-
-</td>
-</tr>
-</table>
-**How it all connects**<br>
 I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
 
 **Three questions, every project:**
@@ -113,10 +104,13 @@ I treat every stage of an ML pipeline as a measurement problem: labels carry mea
 
 **Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
 
+Label noise is **measurement error** in the outcome. A model is a **measuring instrument**. Assessment data is **messy by design**.
+
+My projects ask the same three questions of all of them: *is it valid, is it reliable, and is it fair?*
+
 </td>
 </tr>
 </table>
-
 ---
 
 ## Skills
