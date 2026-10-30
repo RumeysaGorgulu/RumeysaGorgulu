@@ -107,7 +107,6 @@ I treat every stage of an ML pipeline as a measurement problem: labels carry mea
 </td>
 </tr>
 </table>
----
 
 ## Skills
 
@@ -135,5 +134,3 @@ I treat every stage of an ML pipeline as a measurement problem: labels carry mea
 <img src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Colab">
 </td></tr>
 </table>
-
----
