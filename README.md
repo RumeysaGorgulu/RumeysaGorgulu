@@ -26,10 +26,12 @@ Every point I measure is a data point, and AI creates things by connecting those
 </td>
 <td width="50%" valign="top">
 
+
 ### Background
 
 - M.S., Educational Psychology & Research Methodology, Purdue University (2025)
 - AI & Big Data Applications Department, Turkish Ministry of National Education
+
 
 ### Beyond Coding
 
@@ -37,6 +39,7 @@ Every point I measure is a data point, and AI creates things by connecting those
 - Chess, puzzle games and Rubik's cubes (record: 49 seconds)
 - Archery, photography and digital drawing
 - Social butterfly, always up for meeting new people
+
 
 </td>
 </tr>
