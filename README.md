@@ -1,7 +1,5 @@
 <img src="banner.svg" width="100%" alt="Rumeysa Gorgulu: AI evaluation through a measurement lens">
 
-<p align="center"><i>Serious about measurement, cheerful about everything else.</i></p>
-
 <p align="center">
   <a href="mailto:rumeysagorgulu19@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/rumeysa-gorgulu/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -105,13 +103,14 @@ A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (
 
 ### 🔗 How it all connects
 
-Label noise is **measurement error** in the outcome. A model is a **measuring instrument**. Assessment data is **messy by design**.
+**Research thread.** I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
 
-My projects ask the same three questions of all of them: *is it valid, is it reliable, and is it fair?*
+**Three questions, every project:**
+- **Validity:** does the score measure what it claims to?
+- **Reliability:** is it consistent across repeats, prompts and samples?
+- **Fairness:** does it work equally well across groups?
 
-</td>
-</tr>
-</table>
+**Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
 
 ---
 
