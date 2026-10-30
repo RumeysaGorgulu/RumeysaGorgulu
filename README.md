@@ -44,63 +44,85 @@ Every point I measure is a data point, and AI creates things by connecting those
 
 ---
 
+## Featured Projects
+
 <table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/text-label-noise-fairness/main/results/fig_results.png" width="100%" alt="Text label noise and fairness"></a>
+<td width="45%" valign="middle">
+<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/text-label-noise-fairness/main/results/fig_results.png" width="100%" alt="Which Labels Are Wrong Matters"></a>
+</td>
+<td width="55%" valign="middle">
 
-### Which Labels Are Wrong Matters
+**[Which Labels Are Wrong Matters](https://github.com/RumeysaGorgulu/text-label-noise-fairness)**
+
 Changing **8.9%** of training labels on identity-mentioning comments raised DistilBERT's false-positive gap from **0.05 to 0.44**, while overall AUC barely moved.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<sub>Python · PyTorch · Transformers</sub>
 
-**[→ View repo](https://github.com/RumeysaGorgulu/text-label-noise-fairness)**
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/llm-bias-reliability/main/results/mistral7b/fig_group_means.png" width="100%" alt="LLM bias and reliability"></a>
+</tr>
+<tr>
+<td width="45%" valign="middle">
+<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/llm-bias-reliability/main/results/mistral7b/fig_group_means.png" width="100%" alt="Is an LLM a Reliable and Fair Rater?"></a>
+</td>
+<td width="55%" valign="middle">
 
-### Is an LLM a Reliable and Fair Rater?
+**[Is an LLM a Reliable and Fair Rater?](https://github.com/RumeysaGorgulu/llm-bias-reliability)**
+
 A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (**ICC 0.90–0.98**), yet name-based score gaps still appeared.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+<sub>Python · Ollama · pandas</sub>
 
-**[→ View repo](https://github.com/RumeysaGorgulu/llm-bias-reliability)**
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/data-quality-stress-test/main/results/adult/fig_tpr_gap.png" width="100%" alt="Data-quality stress test"></a>
-
-### Data-Quality Stress Test
-Group-targeted label noise cut accuracy by only **0.9 points** but raised the equal-opportunity gap from **0.07 to 0.40**.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
-**[→ View repo](https://github.com/RumeysaGorgulu/data-quality-stress-test)**
+<td width="45%" valign="middle">
+<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/data-quality-stress-test/main/results/adult/fig_tpr_gap.png" width="100%" alt="Data-Quality Stress Test"></a>
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa2022-ses-achievement/main/plots/map_math.png" width="100%" alt="PISA 2022 SES and achievement"></a>
+<td width="55%" valign="middle">
 
-### Family Background & Achievement in PISA 2022
-Socioeconomic survey items explain **37–39%** of score variance for U.S. students, vs. **12–17%** for the ESCS index alone.
+**[Data-Quality Stress Test](https://github.com/RumeysaGorgulu/data-quality-stress-test)**
 
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![tidymodels](https://img.shields.io/badge/tidymodels-1A162D?style=flat-square) ![glmnet](https://img.shields.io/badge/glmnet-LASSO-4B5575?style=flat-square)
+Flipping women's positive labels cut accuracy by only **0.9 points** but raised the equal-opportunity gap from **0.07 to 0.40**.
 
-**[→ View repo](https://github.com/RumeysaGorgulu/pisa2022-ses-achievement)**
+<sub>Python · scikit-learn</sub>
+
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="[FINANCIAL_LITERACY_IMAGE_URL]" width="100%" alt="Financial literacy predictors"></a>
-
-### Predictors of Financial Literacy (M.S. Thesis)
-Survey-weighted regression with plausible values, replicate weights and multiple imputation across the USA, Poland and Spain in PISA 2018 and 2022.
-
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![survey](https://img.shields.io/badge/survey-weights-4B5575?style=flat-square) ![mice](https://img.shields.io/badge/mice-imputation-4B5575?style=flat-square)
-
-**[→ View repo](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**
+<td width="45%" valign="middle">
+<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa2022-ses-achievement/main/plots/model_comparison_r2.png" width="100%" alt="Family Background & Achievement in PISA 2022"></a>
 </td>
-<td width="50%" valign="top">
+<td width="55%" valign="middle">
+
+**[Family Background & Achievement in PISA 2022](https://github.com/RumeysaGorgulu/pisa2022-ses-achievement)**
+
+Socioeconomic survey items explain **37–39%** of score variance for U.S. students, vs. **12–17%** for the ESCS index alone. [Interactive maps](https://rpubs.com/RumeysaGorgulu/pisa2022-visualization)
+
+<sub>R · glmnet · tidymodels</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="middle">
+
+**[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**
+
+Survey-weighted regression with plausible values, replicate weights and multiple imputation: USA, Poland and Spain in PISA 2018 and 2022.
+
+<sub>R · survey · mice</sub>
+
+</td>
+</tr>
+</table>
+
+**How it all connects.** I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness. Every project asks three questions:
+
+| Validity | Reliability | Fairness |
+|---|---|---|
+| Does the score measure what it claims to? | Is it consistent across repeats, prompts and samples? | Does it work equally well across groups? |
+
+**Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
 
 **How it all connects**<br>
 I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
