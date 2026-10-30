@@ -9,13 +9,13 @@
 
 ---
 
-## 🧭 About Me
+## About Me
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💼 At work
+### At work
 
 I'm working toward becoming a data scientist and moving gradually into AI. I'm most interested in **data-centric AI**: data quality, and the data processing that makes data better.
 
@@ -26,17 +26,17 @@ Every point I measure is a data point, and AI creates things by connecting those
 </td>
 <td width="50%" valign="top">
 
-### 🎓 Background
+### Background
 
 - M.S., Educational Psychology & Research Methodology, Purdue University (2025)
 - AI & Big Data Applications Department, Turkish Ministry of National Education
 
-### 🎈 Beyond Coding
+### Beyond Coding
 
-- 🏅 Logic games medalist at Gazi University
-- ♟️ Chess, puzzle games and Rubik's cubes (record: 42 seconds)
-- 🏹 Archery, 📷 photography and 🎨 digital drawing
-- 💬 Social butterfly, always up for meeting new people
+- Logic games medalist at Gazi University
+- Chess, puzzle games and Rubik's cubes (record: 49 seconds)
+- Archery, photography and digital drawing
+- Social butterfly, always up for meeting new people
 
 </td>
 </tr>
@@ -45,8 +45,6 @@ Every point I measure is a data point, and AI creates things by connecting those
 ---
 
 ## 🚀 Featured Projects
-
-From measuring students, to measuring data, to measuring the models themselves.
 
 <table>
 <tr>
