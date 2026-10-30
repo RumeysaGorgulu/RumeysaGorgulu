@@ -44,7 +44,7 @@ Every point I measure is a data point, and AI creates things by connecting those
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
@@ -77,7 +77,7 @@ A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (
 
 <sub>Python · Ollama · pandas</sub>
 </td>
-<td width="50%" valign="middle">
+<td width="50%" valign="top">
 
 <a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="fl.gif" width="100%" alt="Predictors of Financial Literacy (M.S. Thesis)"></a>
 
@@ -86,6 +86,8 @@ Survey-weighted regression with plausible values, replicate weights and multiple
 
 <sub>R · survey · mice</sub>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="ses.gif" width="100%" alt="Family Background & Achievement in PISA 2022"></a>
@@ -95,13 +97,10 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 
 <sub>R · glmnet · tidymodels</sub>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 🔗 How it all connects
-
-**Research thread.** I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
+**How it all connects**<br>
+I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
 
 **Three questions, every project:**
 - **Validity:** does the score measure what it claims to?
@@ -116,7 +115,7 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 <table>
 <tr><td><b>Languages</b></td><td>
@@ -144,5 +143,3 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 </table>
 
 ---
-
-<p align="center"><i>Thanks for stopping by! The fastest way to reach me is <a href="mailto:rumeysagorgulu19@gmail.com">email</a>.</i> </p>
