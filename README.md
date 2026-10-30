@@ -44,100 +44,65 @@ Every point I measure is a data point, and AI creates things by connecting those
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 <table>
 <tr>
-<td width="45%" valign="middle">
-<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/text-label-noise-fairness/main/results/fig_results.png" width="100%" alt="Which Labels Are Wrong Matters"></a>
-</td>
-<td width="55%" valign="middle">
+<td width="50%" valign="top">
+<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="thumb_text.png" width="100%" alt="Text label noise and fairness"></a>
 
-**[Which Labels Are Wrong Matters](https://github.com/RumeysaGorgulu/text-label-noise-fairness)**
-
+**[Which Labels Are Wrong Matters](https://github.com/RumeysaGorgulu/text-label-noise-fairness)**<br>
 Changing **8.9%** of training labels on identity-mentioning comments raised DistilBERT's false-positive gap from **0.05 to 0.44**, while overall AUC barely moved.
 
 <sub>Python · PyTorch · Transformers</sub>
-
 </td>
-</tr>
-<tr>
-<td width="45%" valign="middle">
-<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/llm-bias-reliability/main/results/mistral7b/fig_group_means.png" width="100%" alt="Is an LLM a Reliable and Fair Rater?"></a>
-</td>
-<td width="55%" valign="middle">
+<td width="50%" valign="top">
+<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="thumb_llm.png" width="100%" alt="LLM bias and reliability"></a>
 
-**[Is an LLM a Reliable and Fair Rater?](https://github.com/RumeysaGorgulu/llm-bias-reliability)**
-
+**[Is an LLM a Reliable and Fair Rater?](https://github.com/RumeysaGorgulu/llm-bias-reliability)**<br>
 A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (**ICC 0.90–0.98**), yet name-based score gaps still appeared.
 
 <sub>Python · Ollama · pandas</sub>
-
 </td>
 </tr>
 <tr>
-<td width="45%" valign="middle">
-<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/data-quality-stress-test/main/results/adult/fig_tpr_gap.png" width="100%" alt="Data-Quality Stress Test"></a>
-</td>
-<td width="55%" valign="middle">
+<td width="50%" valign="top">
+<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="thumb_dq.png" width="100%" alt="Data-quality stress test"></a>
 
-**[Data-Quality Stress Test](https://github.com/RumeysaGorgulu/data-quality-stress-test)**
-
-Flipping women's positive labels cut accuracy by only **0.9 points** but raised the equal-opportunity gap from **0.07 to 0.40**.
+**[Data-Quality Stress Test](https://github.com/RumeysaGorgulu/data-quality-stress-test)**<br>
+Mislabeling one group's positive cases cut accuracy by only **0.9 points** but raised the equal-opportunity gap from **0.07 to 0.40**.
 
 <sub>Python · scikit-learn</sub>
-
 </td>
-</tr>
-<tr>
-<td width="45%" valign="middle">
-<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa2022-ses-achievement/main/plots/model_comparison_r2.png" width="100%" alt="Family Background & Achievement in PISA 2022"></a>
-</td>
-<td width="55%" valign="middle">
+<td width="50%" valign="top">
+<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="thumb_ses.png" width="100%" alt="PISA 2022 SES and achievement"></a>
 
-**[Family Background & Achievement in PISA 2022](https://github.com/RumeysaGorgulu/pisa2022-ses-achievement)**
-
-Socioeconomic survey items explain **37–39%** of score variance for U.S. students, vs. **12–17%** for the ESCS index alone. [Interactive maps](https://rpubs.com/RumeysaGorgulu/pisa2022-visualization)
+**[Family Background & Achievement in PISA 2022](https://github.com/RumeysaGorgulu/pisa2022-ses-achievement)**<br>
+Socioeconomic survey items explain **37–39%** of score variance for U.S. students, vs. **12–17%** for the ESCS index alone.
 
 <sub>R · glmnet · tidymodels</sub>
-
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="middle">
+<td width="50%" valign="top">
+<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="thumb_fl.png" width="100%" alt="Financial literacy predictors"></a>
 
-**[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**
-
+**[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**<br>
 Survey-weighted regression with plausible values, replicate weights and multiple imputation: USA, Poland and Spain in PISA 2018 and 2022.
 
 <sub>R · survey · mice</sub>
+</td>
+<td width="50%" valign="middle">
+
+### 🔗 How it all connects
+
+Label noise is **measurement error** in the outcome. A model is a **measuring instrument**. Assessment data is **messy by design**.
+
+My projects ask the same three questions of all of them: *is it valid, is it reliable, and is it fair?*
 
 </td>
 </tr>
 </table>
-
-**How it all connects.** I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness. Every project asks three questions:
-
-| Validity | Reliability | Fairness |
-|---|---|---|
-| Does the score measure what it claims to? | Is it consistent across repeats, prompts and samples? | Does it work equally well across groups? |
-
-**Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
-
-**How it all connects**<br>
-I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
-
-**Three questions, every project:**
-- **Validity:** does the score measure what it claims to?
-- **Reliability:** is it consistent across repeats, prompts and samples?
-- **Fairness:** does it work equally well across groups?
-
-**Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
-
-</td>
-</tr>
-</table>
-
 **How it all connects**<br>
 I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
 
