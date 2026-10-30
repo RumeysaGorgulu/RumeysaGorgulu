@@ -10,14 +10,9 @@
 ---
 ## About Me
 
-<p align="center">
-M.S., Educational Psychology & Research Methodology, Purdue University (2025)<br>
-AI & Big Data Applications Department, Turkish Ministry of National Education
-</p>
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="middle">
 
 ### At work
 
@@ -25,12 +20,15 @@ I'm working toward becoming a data scientist and moving gradually into AI. I'm m
 
 Every point I measure is a data point, and AI creates things by connecting those dots. That's why I bring psychometric tools (reliability, measurement error, group bias) to AI evaluation.
 
+**How I work:** step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
+
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="middle">
 
-### How I work
+### Background
 
-Step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
+- M.S., Educational Psychology & Research Methodology, Purdue University (2025)
+- AI & Big Data Applications Department, Turkish Ministry of National Education
 
 ### Beyond Coding
 
@@ -42,7 +40,6 @@ Step by step. Before any new idea, I set deadlines and split the work into manag
 </td>
 </tr>
 </table>
-
 ---
 
 ## Projects
