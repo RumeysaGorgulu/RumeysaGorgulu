@@ -54,7 +54,7 @@ From measuring students, to measuring data, to measuring the models themselves.
 <tr>
 <td width="50%" valign="top">
 <sub><b>STEP 1 · MEASURING STUDENTS</b></sub><br>
-<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="anim_fl.gif" width="100%" alt="Predictors of Financial Literacy (M.S. Thesis)"></a>
+<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="fl.gif" width="100%" alt="Predictors of Financial Literacy (M.S. Thesis)"></a>
 
 **[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**<br>
 Survey-weighted regression with plausible values, replicate weights and multiple imputation: USA, Poland and Spain in PISA 2018 and 2022.
@@ -63,7 +63,7 @@ Survey-weighted regression with plausible values, replicate weights and multiple
 </td>
 <td width="50%" valign="top">
 <sub><b>STEP 1 · MEASURING STUDENTS</b></sub><br>
-<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="anim_ses.gif" width="100%" alt="Family Background & Achievement in PISA 2022"></a>
+<a href="https://github.com/RumeysaGorgulu/pisa2022-ses-achievement"><img src="ses.gif" width="100%" alt="Family Background & Achievement in PISA 2022"></a>
 
 **[Family Background & Achievement in PISA 2022](https://github.com/RumeysaGorgulu/pisa2022-ses-achievement)**<br>
 Socioeconomic survey items explain **37–39%** of score variance for U.S. students, vs. **12–17%** for the ESCS index alone. [Interactive maps](https://rpubs.com/RumeysaGorgulu/pisa2022-visualization)
@@ -74,7 +74,7 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 <tr>
 <td width="50%" valign="top">
 <sub><b>STEP 2 · MEASURING DATA QUALITY</b></sub><br>
-<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="anim_dq.gif" width="100%" alt="Data-Quality Stress Test"></a>
+<a href="https://github.com/RumeysaGorgulu/data-quality-stress-test"><img src="dq.gif" width="100%" alt="Data-Quality Stress Test"></a>
 
 **[Data-Quality Stress Test](https://github.com/RumeysaGorgulu/data-quality-stress-test)**<br>
 Flipping women's positive labels cut accuracy by only **0.9 points** but raised the equal-opportunity gap from **0.07 to 0.40**.
@@ -83,7 +83,7 @@ Flipping women's positive labels cut accuracy by only **0.9 points** but raised 
 </td>
 <td width="50%" valign="top">
 <sub><b>STEP 2 · MEASURING DATA QUALITY</b></sub><br>
-<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="anim_text.gif" width="100%" alt="Which Labels Are Wrong Matters"></a>
+<a href="https://github.com/RumeysaGorgulu/text-label-noise-fairness"><img src="text.gif" width="100%" alt="Which Labels Are Wrong Matters"></a>
 
 **[Which Labels Are Wrong Matters](https://github.com/RumeysaGorgulu/text-label-noise-fairness)**<br>
 Changing **8.9%** of training labels on identity-mentioning comments raised DistilBERT's false-positive gap from **0.05 to 0.44**, while overall AUC barely moved.
@@ -94,7 +94,7 @@ Changing **8.9%** of training labels on identity-mentioning comments raised Dist
 <tr>
 <td width="50%" valign="top">
 <sub><b>STEP 3 · MEASURING THE MODEL</b></sub><br>
-<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="anim_llm.gif" width="100%" alt="Is an LLM a Reliable and Fair Rater?"></a>
+<a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="llm.gif" width="100%" alt="Is an LLM a Reliable and Fair Rater?"></a>
 
 **[Is an LLM a Reliable and Fair Rater?](https://github.com/RumeysaGorgulu/llm-bias-reliability)**<br>
 A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (**ICC 0.90–0.98**), yet name-based score gaps still appeared.
