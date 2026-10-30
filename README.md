@@ -104,10 +104,6 @@ I treat every stage of an ML pipeline as a measurement problem: labels carry mea
 
 **Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
 
-Label noise is **measurement error** in the outcome. A model is a **measuring instrument**. Assessment data is **messy by design**.
-
-My projects ask the same three questions of all of them: *is it valid, is it reliable, and is it fair?*
-
 </td>
 </tr>
 </table>
