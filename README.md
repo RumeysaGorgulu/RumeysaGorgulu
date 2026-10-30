@@ -112,6 +112,10 @@ A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (
 
 **Why it matters in practice:** standard metrics like accuracy and AUC can look fine while a model fails one group. These checks catch that before deployment.
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🛠️ Skills
@@ -144,4 +148,4 @@ A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (
 
 ---
 
-<p align="center"><i>Thanks for stopping by! The fastest way to reach me is <a href="mailto:rumeysagorgulu19@gmail.com">email</a>.</i> 🌱</p>
+<p align="center"><i>Thanks for stopping by! The fastest way to reach me is <a href="mailto:rumeysagorgulu19@gmail.com">email</a>.</i> </p>
