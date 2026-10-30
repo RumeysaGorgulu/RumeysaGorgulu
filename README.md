@@ -26,12 +26,10 @@ Every point I measure is a data point, and AI creates things by connecting those
 </td>
 <td width="50%" valign="top">
 
-
 ### Background
 
-- M.S., Educational Psychology & Research Methodology, Purdue University (2025)
+- M.S., Educational Psychology & Research Methodology, Purdue University (2025) 
 - AI & Big Data Applications Department, Turkish Ministry of National Education
-
 
 ### Beyond Coding
 
