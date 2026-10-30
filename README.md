@@ -8,8 +8,12 @@
 </p>
 
 ---
-
 ## About Me
+
+<p align="center">
+M.S., Educational Psychology & Research Methodology, Purdue University (2025)<br>
+AI & Big Data Applications Department, Turkish Ministry of National Education
+</p>
 
 <table>
 <tr>
@@ -21,20 +25,19 @@ I'm working toward becoming a data scientist and moving gradually into AI. I'm m
 
 Every point I measure is a data point, and AI creates things by connecting those dots. That's why I bring psychometric tools (reliability, measurement error, group bias) to AI evaluation.
 
-**How I work:** step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
-
 </td>
 <td width="50%" valign="top">
 
-### Background
-- M.S., Educational Psychology & Research Methodology, Purdue University (2025) 
-- AI & Big Data Applications Department, Turkish Ministry of National Education
+### How I work
+
+Step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
+
 ### Beyond Coding
+
 - Logic games medalist at Gazi University
 - Chess, puzzle games and Rubik's cubes (record: 49 seconds)
 - Archery, photography and digital drawing
 - Social butterfly, always up for meeting new people
-
 
 </td>
 </tr>
@@ -42,7 +45,7 @@ Every point I measure is a data point, and AI creates things by connecting those
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
 <table>
 <tr>
