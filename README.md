@@ -8,11 +8,12 @@
 </p>
 
 ---
+
 ## About Me
 
 <table>
 <tr>
-<td width="50%" valign="middle">
+<td width="50%" valign="top">
 
 ### At work
 
@@ -23,7 +24,7 @@ Every point I measure is a data point, and AI creates things by connecting those
 **How I work:** step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
 
 </td>
-<td width="50%" valign="middle">
+<td width="50%" valign="top">
 
 ### Background
 
@@ -33,13 +34,14 @@ Every point I measure is a data point, and AI creates things by connecting those
 ### Beyond Coding
 
 - Logic games medalist at Gazi University
-- Chess, puzzle games and Rubik's cubes (record: 49 seconds)
+- Chess, puzzle games and Rubik's cubes (record: 42 seconds)
 - Archery, photography and digital drawing
 - Social butterfly, always up for meeting new people
 
 </td>
 </tr>
 </table>
+
 ---
 
 ## Projects
