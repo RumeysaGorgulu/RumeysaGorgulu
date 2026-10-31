@@ -85,7 +85,8 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa-financial-literacy-predictors/main/plots/coefficients_by_country.png" width="100%" alt="Predictors of Financial Literacy"></a> 
+<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa-financial-literacy-predictors/main/plots/coefficients_by_country.png" width="100%" alt="Predictors of Financial Literacy"></a>
+
 **[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**<br>
 Survey-weighted regression with plausible values, replicate weights and multiple imputation: USA, Poland and Spain in PISA 2018 and 2022.
 
@@ -93,7 +94,7 @@ Survey-weighted regression with plausible values, replicate weights and multiple
 </td>
 <td width="50%" valign="middle">
 
-### 🔗 How it all connects
+**How it all connects**<br>
 I treat every stage of an ML pipeline as a measurement problem: labels carry measurement error, models act as measuring instruments, and assessment data come with complex sampling and missingness.
 
 **Three questions, every project:**
@@ -107,6 +108,7 @@ I treat every stage of an ML pipeline as a measurement problem: labels carry mea
 </tr>
 </table>
 
+---
 ## Skills
 
 <table>
