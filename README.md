@@ -85,8 +85,7 @@ Socioeconomic survey items explain **37–39%** of score variance for U.S. stude
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="thumb_fl.png" width="100%" alt="Financial literacy predictors"></a>
-
+<a href="https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors"><img src="https://raw.githubusercontent.com/RumeysaGorgulu/pisa-financial-literacy-predictors/main/plots/coefficients_by_country.png" width="100%" alt="Predictors of Financial Literacy"></a> 
 **[Predictors of Financial Literacy (M.S. Thesis)](https://github.com/RumeysaGorgulu/pisa-financial-literacy-predictors)**<br>
 Survey-weighted regression with plausible values, replicate weights and multiple imputation: USA, Poland and Spain in PISA 2018 and 2022.
 
