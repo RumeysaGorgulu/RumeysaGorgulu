@@ -15,13 +15,13 @@
 <tr>
 <td width="50%" valign="top">
 
-### At work
+### Research
 
-I'm working toward becoming a data scientist and moving gradually into AI. I'm most interested in **data-centric AI**: data quality, and the data processing that makes data better.
+I study how errors in **data, labels and evaluation** (measurement error, unreliable raters, group-targeted label noise) distort what AI systems learn and how we judge them.
 
-Every point I measure is a data point, and AI creates things by connecting those dots. That's why I bring psychometric tools (reliability, measurement error, group bias) to AI evaluation.
+I bring tools from psychometrics (reliability, measurement error, differential item functioning) to **data-centric AI** and **LLM evaluation**.
 
-**How I work:** step by step. Before any new idea, I set deadlines and split the work into manageable chunks.
+**Interests:** label quality and fairness, LLM-as-a-judge reliability, distribution shift
 
 </td>
 <td width="50%" valign="top">
@@ -33,10 +33,8 @@ Every point I measure is a data point, and AI creates things by connecting those
 
 ### Beyond Coding
 
-- Logic games medalist at Gazi University
-- Chess, puzzle games and Rubik's cubes (record: 42 seconds)
+- Logic games medalist at Gazi University; chess and Rubik's cubes (42-second record)
 - Archery, photography and digital drawing
-- Social butterfly, always up for meeting new people
 
 </td>
 </tr>
@@ -60,7 +58,7 @@ Changing **8.9%** of training labels on identity-mentioning comments raised Dist
 <a href="https://github.com/RumeysaGorgulu/llm-bias-reliability"><img src="thumb_llm.png" width="100%" alt="LLM bias and reliability"></a>
 
 **[Is an LLM a Reliable and Fair Rater?](https://github.com/RumeysaGorgulu/llm-bias-reliability)**<br>
-A psychometric audit of 3 open LLMs as job-candidate raters: highly consistent (**ICC 0.90–0.98**), yet name-based score gaps still appeared.
+A psychometric audit of 3 open LLMs as job-candidate raters: consistent (repeat SD **0.20–0.35** on a 1–10 scale), yet the most consistent model showed the largest name gap (suggestive, with 4 names per group).
 
 <sub>Python · Ollama · pandas</sub>
 </td>
